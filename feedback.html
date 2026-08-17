@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marawi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  
+  <body>
+
+    <nav class="navbar">
+
+      <div class="nav-inner">
+
+        <div class="menu-btn">☰</div>
+
+        <ul class="nav-links">
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="event.html">Event</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <a class="logo" href="index.html">Marawi</a>
+
+        <div class="social">
+
+          <a href="https://www.facebook.com/mohamed.marawi6723/" aria-label="Facebook"></a>
+          <a href="https://www.instagram.com/mohamed.marawi.24/" aria-label="Instagram"></a>
+          <a href="#" aria-label="Google"></a>
+          <a href="https://www.youtube.com/channel/UCN5RB4fYNkqQWvB_nfZ0r4w" aria-label="YouTube"></a>
+          <a href="#" aria-label="Twitter"></a>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+    <main class="page">
+
+      <div class="container">
+        
+        <div class="page-title"><h1>Feedback</h1><p>Your opinion matters.</p></div>      
+        <form class="form" onsubmit="event.preventDefault();alert('Thank you for your feedback!');">
+      
+          <div class="field"><label>Name</label><input required type="text" placeholder="Your name"></div>      
+          <div class="field"><label>Email</label><input required type="email" placeholder="you@example.com"></div>      
+          <div class="field"><label>Rating</label><select><option>★★★★★ Excellent</option><option>★★★★ Very good</option><option>★★★ Good</option><option>★★ Needs improvement</option><option>★ Poor</option></select></div>      
+          <div class="field"><label>Message</label><textarea required placeholder="Write your feedback..."></textarea></div>  
+          <button class="btn" type="submit">Send Feedback</button>
+      
+        </form>
+        
+      </div>
+    </main>
+    <footer>© 2025 Marawi</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
